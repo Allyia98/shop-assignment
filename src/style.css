@@ -1,0 +1,15 @@
+body {
+  background-color: #f7dcc5;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.container {
+  margin: 0 15px 0;
+}
+
+.col-4 {
+  padding: 0;
+}
