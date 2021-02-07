@@ -1,31 +1,31 @@
-.container {
-  width: 100%;
+body {
+  background-color: #fcf6ec;
 }
 
-body {
-  background-color: #f7dcc5;
+button {
+  border-color: black;
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 38px;
   font-family: "Sriracha", cursive;
   font-weight: 400;
 }
 
-button {
-  margin-top: 5px;
+h4 {
+  text-align: center;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
-.icons {
-  margin-top: 5px;
+li {
+  margin: 10px;
 }
 
-.col-4 {
-  padding: 0px 0px 0px 20px;
-  margin: 2px;
-}
-
-.form-control {
-  margin-top: 5px;
-  margin-left: 10px;
+.secondRow {
+  border: solid;
+  border-radius: 15px;
+  border-color: #e2e0e0;
 }

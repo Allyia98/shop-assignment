@@ -9,36 +9,73 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Allyia Rahim - 3220 - A1</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4">
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+        
+            <div class="col-5">
              <h1> Vintage Clothing</h1>   
             </div>
 
-            <div class="col-3">
-                <input class="form-control" 
-                type="text" 
-                placeholder="Search item..." 
-                aria-label="default input example">
-            </div>
-            
-            <div class="col-3">
-                <button type="submit" class="btn btn-light">🔎</button>
+            <div class="col-4">
+                <form class="d-flex">
+                    <input class="form-control me-2" 
+                    type="text" 
+                    placeholder="Search item..." 
+                    aria-label="default input example"> 
+                    <button type="submit" class="btn btn-light btn-outline-dark">🔎</button>
+                </form>
             </div>
 
             <div class="col-1 icons" className="icons">
-                <img src="images/favorite-heart-button.png" style="width: 20px; height:20px">
-                <img src="images/user-account-box.png" style="width: 20px; height:20px">
-                <img src="images/show-menu-button.png" style="width: 20px; height:20px">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <img src="images/favorite-heart-button.png" className="icon1" style="width: 20px; height:20px">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/user-account-box.png" className="icon2"style="width: 20px; height:20px">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/show-menu-button.png" className="icon3" style="width: 20px; height:20px">
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="container-fluid">
+        <div class = "row secondRow">
+            <div class = "col-2">
+                <h4>New In</h4>
             </div>
 
-        </div>
+            <div class="col-2">
+                <h4> Sale </h4>
+            </div>
 
+            <div class="col-2">
+                <h4> Clothing </h4>
+            </div>
+
+            <div class="col-2">
+                <h4> Accessories </h4>
+            </div>
+
+            <div class="col-2">
+                <h4> Shoes </h4>
+            </div>
+
+            <div class="col-2">
+                <h4> Beachwear </h4>
+            </div>
+        </div>
     </div>
+
     <small>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a
             href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
 </body>
