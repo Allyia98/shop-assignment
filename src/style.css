@@ -36,6 +36,9 @@ p {
   border-color: #e2e0e0;
   margin-top: 20px;
 }
+.color {
+  font-weight: bold;
+}
 
 .discount {
   margin-top: 10px;
@@ -47,7 +50,79 @@ p {
   margin-bottom: 20px;
 }
 
+.item {
+  border-radius: 8px;
+  max-width: 70%;
+  float: right;
+}
+
+.item-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.price {
+  float: left;
+}
+
+p .size {
+  font-weight: bold;
+}
+
 .thirdRow {
   margin-top: 20px;
   background-color: #e2e0e0;
+}
+
+.smalll,
+.medium,
+.large {
+  border-radius: 50%;
+  border: 2px solid #252523;
+  background-color: #f1f0f5;
+  margin: 0 5px 5px 0;
+  width: 35px;
+  height: 35px;
+}
+
+.ivory,
+.blue,
+.red,
+.purple,
+.green,
+.grey,
+.black {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px 5px 0px;
+  border: 2px solid #252523;
+}
+
+.ivory {
+  background-color: #e0ddcd;
+}
+
+.blue {
+  background-color: #95dbf4;
+}
+
+.red {
+  background-color: #881443;
+}
+
+.purple {
+  background-color: #c48efe;
+}
+
+.green {
+  background-color: #9fa598;
+}
+
+.grey {
+  background-color: #c0c0c0;
+}
+
+.black {
+  background-color: black;
 }
