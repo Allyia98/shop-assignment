@@ -2,10 +2,6 @@ body {
   background-color: #fcf6ec;
 }
 
-button {
-  border-color: black;
-}
-
 h1 {
   font-size: 38px;
   font-family: "Sriracha", cursive;
@@ -29,6 +25,20 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+.addToBag {
+  width: 80%;
+  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.addToLove {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+}
 
 .secondRow {
   border: solid;
@@ -36,6 +46,8 @@ p {
   border-color: #e2e0e0;
   margin-top: 20px;
 }
+
+/* Color description name */
 .color {
   font-weight: bold;
 }
@@ -49,16 +61,24 @@ p {
 .fourthRow {
   margin-bottom: 20px;
 }
-
+.icons {
+  float: right;
+}
+/* item image (the Nike sweater) */
 .item {
   border-radius: 8px;
-  max-width: 70%;
+  max-width: 80%;
   float: right;
 }
 
 .item-name {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+/* heart button */
+.loveBtn {
+  height: 20px;
 }
 
 .price {
@@ -74,6 +94,7 @@ p .size {
   background-color: #e2e0e0;
 }
 
+/* buttons css */
 .smalll,
 .medium,
 .large {
@@ -83,6 +104,7 @@ p .size {
   margin: 0 5px 5px 0;
   width: 35px;
   height: 35px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .ivory,
@@ -125,4 +147,24 @@ p .size {
 
 .black {
   background-color: black;
+}
+
+/* model pics */
+.modelPics {
+  list-style-type: none;
+}
+
+.modelPics li {
+  float: right;
+  margin-right: 20px;
+}
+
+.firstModelPic,
+.secondModelPic,
+.thirdModelPic,
+.fourthModelPic {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  display: block;
 }
