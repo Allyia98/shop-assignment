@@ -93,7 +93,15 @@ p .size {
   margin-top: 20px;
   background-color: #e2e0e0;
 }
-
+.seventhRow {
+  text-align: center;
+}
+.similar img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
 /* buttons css */
 .smalll,
 .medium,
