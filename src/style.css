@@ -8,15 +8,6 @@ h1 {
   font-weight: 400;
 }
 
-h4 {
-  text-align: center;
-  line-height: 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 0;
-}
-
 li {
   margin: 10px;
 }
@@ -26,9 +17,11 @@ p {
   font-size: 18px;
 }
 
+/* Google credit + Git link */
 small {
   margin-left: 15px;
 }
+
 .addToBag {
   width: 80%;
   height: 40px;
@@ -47,23 +40,31 @@ small {
   background-color: #f1f0f5;
 }
 
-/* Color description name */
-.color {
-  font-weight: bold;
+.col-2 h4 {
+  text-align: center;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 .discount {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
+  text-align: center;
 }
 
 .fourthRow {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
+
 .icons {
   float: right;
 }
+
 /* item image (the Nike sweater) */
 .item {
   border-radius: 8px;
@@ -89,10 +90,6 @@ small {
   float: left;
 }
 
-p .size {
-  font-weight: bold;
-}
-
 .thirdRow {
   margin-top: 20px;
   background-color: #e2e0e0;
@@ -100,11 +97,12 @@ p .size {
 
 .secondRow {
   border: solid;
-  border-radius: 15px;
+  border-radius: 8px;
   border-color: #e2e0e0;
   margin-top: 20px;
 }
 
+/* "You may alos like..." pictures */
 .seventhRow {
   text-align: center;
 }
@@ -117,7 +115,7 @@ p .size {
 }
 
 .split {
-  margin: 150px 0px 10px 0px;
+  margin: 170px 0px 10px 0px;
 }
 
 /* buttons css */
