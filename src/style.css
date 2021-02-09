@@ -25,12 +25,18 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+
+small {
+  margin-left: 15px;
+}
 .addToBag {
   width: 80%;
   height: 40px;
   font-family: "Open Sans", sans-serif;
   border-radius: 8px;
   border: 2px solid;
+  background-color: #f1f0f5;
+  margin-right: 20px;
 }
 
 .addToLove {
@@ -38,13 +44,7 @@ p {
   height: 40px;
   border-radius: 50%;
   border: 2px solid;
-}
-
-.secondRow {
-  border: solid;
-  border-radius: 15px;
-  border-color: #e2e0e0;
-  margin-top: 20px;
+  background-color: #f1f0f5;
 }
 
 /* Color description name */
@@ -76,6 +76,10 @@ p {
   font-weight: bold;
 }
 
+.logo {
+  height: 50px;
+}
+
 /* heart button */
 .loveBtn {
   height: 20px;
@@ -93,15 +97,29 @@ p .size {
   margin-top: 20px;
   background-color: #e2e0e0;
 }
+
+.secondRow {
+  border: solid;
+  border-radius: 15px;
+  border-color: #e2e0e0;
+  margin-top: 20px;
+}
+
 .seventhRow {
   text-align: center;
 }
+
 .similar img {
   width: 250px;
   height: 250px;
   border: 2px solid white;
   border-radius: 8px;
 }
+
+.split {
+  margin: 150px 0px 10px 0px;
+}
+
 /* buttons css */
 .smalll,
 .medium,
